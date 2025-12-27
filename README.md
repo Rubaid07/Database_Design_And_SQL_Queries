@@ -25,8 +25,8 @@ Main focus: **database structure, relationships, and SQL queries**.
 ### Relationships
 - One user can create multiple bookings
 - One vehicle can appear in multiple bookings
-- `bookings.user_id` → `users.user_id`
-- `bookings.vehicle_id` → `vehicles.vehicle_id`
+- bookings.user_id references users.user_id
+- bookings.vehicle_id references vehicles.vehicle_id
 
 All relationships are enforced using **foreign keys**.
 
@@ -87,3 +87,8 @@ The ERD visually represents:
 
 **ERD Link:**  
 _https://drawsql.app/teams/bytebuilders-4/diagrams/vehicle-rental-system_
+
+---
+
+## Author
+**Rubaid Islam**
